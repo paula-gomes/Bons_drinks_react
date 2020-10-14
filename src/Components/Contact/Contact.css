@@ -1,0 +1,33 @@
+h1{
+    font-weight: 700;
+    font-size: 30px;
+    color: #5c0511;
+    text-align: center;
+    margin-top: 20px;
+}
+img{
+    width: 400px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.bodyForm{
+    display: grid;   
+    grid-template-columns: 40% 60%;
+    gap:10px;
+    
+}
+.form{
+    display: grid;
+    align-self: start;
+    place-items: center;
+}
+
+.formLabels{
+    grid-column-start: 2;
+    margin-inline-start: 10px;
+    place-items: center;
+    
+
+}
+    
+

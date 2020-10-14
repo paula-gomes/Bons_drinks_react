@@ -1,0 +1,14 @@
+.header{
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    grid-area: 'header';
+}
+
+.navHeader{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+
+}
